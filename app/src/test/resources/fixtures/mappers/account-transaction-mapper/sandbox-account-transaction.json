@@ -1,0 +1,11 @@
+{
+    "transactionId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "senderIban": "FR7630006000011234567890189",
+    "recipientIban": "DE89370400440532013000",
+    "amount": 250.00,
+    "type": "TRANSFER",
+    "description": "Payment for invoice #12345",
+    "currency": "EUR",
+    "createdAt": "2024-02-23T10:15:30",
+    "updatedAt": "2024-02-23T12:45:00"
+}

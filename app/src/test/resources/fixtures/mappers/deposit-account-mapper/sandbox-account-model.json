@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "active": true,
+    "iban": "DE89370400440532013000",
+    "currency": "EUR",
+    "balance": {
+        "currency": "EUR",
+        "amount": 1500.75
+    }
+}

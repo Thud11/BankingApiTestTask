@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking
+    username: postgres
+    password: WxzLvtU7Ah25
+    hikari:
+      data-source-properties:
+        encrypt: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 50
+        order_inserts: true
+        order_updates: true
+        jdbc.batch_versioned_data: true
+        session_factory:
+          batch_fetch_size: 50
+
+validators:
+  config:
+    enabledIbanValidator: true
+
+client:
+  client-id: 3f5a21d8-84b1-4e7c-b43e-1b02d9c7ef8a
+  client-secret: bP9@cZ!6qL#vF2jD$hXt
+
+
+
+
+externalBanking:
+  config:
+    baseUrl: http://localhost:8080
+    ibanExistsUrl: /mock/accounts/{accountId}
+    accountBalanceUrl: /mock/accounts/{accountId}/balance
+    transactionsUrl: /mock/accounts/{accountId}/transactions
+    paymentsUrl: /mock/payments/initiate

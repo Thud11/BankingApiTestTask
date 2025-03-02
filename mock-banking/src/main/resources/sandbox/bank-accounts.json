@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "iban": "DE74500105172121713619",
+        "currency": "EUR",
+        "active": true,
+        "accountBalance": {
+            "amount": 1500.75,
+            "currency": "EUR"
+        },
+        "transactions": [
+            {
+                "transactionId": "5db40307-0f56-4f7a-9987-f9b67901d80a",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517318362831742",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "d04d8d47-6452-44d1-bcc7-7eb4fa9a3403",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517587991432584",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "d5c4abcc-0423-49c4-bdac-f934c812e6c2",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517194739195760",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "06d567f5-1106-4f2f-b73f-31e7e3ad03f6",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517469211626236",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "02ec5ac1-9a15-444a-9a9e-b1df5e0b7c6e",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517123344719013",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "1a7a9472-f729-41fb-b4fd-afe2fbc7c1d1",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517854687246588",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "3cb11d61-9bd1-4f69-b91c-6aefb203fbdc",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517743779996738",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "5fd24a7d-e45d-4f12-9338-b2526ae7b445",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517489329093276",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "494d9e7a-082e-4090-8670-c37f22b8c067",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517569822758855",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "17830db7-157d-4c92-8880-b1916d4c52a2",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517234935777914",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "7a48a2e9-dc61-4603-9b02-c870cc84f67d",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517465287898797",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            },
+            {
+                "transactionId": "da20ae6c-85b7-48f1-89b8-6e1a29e36992",
+                "senderIban": "DE74500105172121713619",
+                "recipientIban": "DE50010517129155297960",
+                "amount": 100.00,
+                "type": "PAYMENT",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "iban": "DE50500105179598831884",
+        "currency": "EUR",
+        "active": false,
+        "accountBalance": {
+            "amount": 2450.00,
+            "currency": "USD"
+        },
+        "transactions": [
+            {
+                "transactionId": "e7d6e9b0-1b5d-4f2a-8b74-45a63e2a1a1f",
+                "senderIban": "DE50500105179598831884",
+                "recipientIban": "DE12500105175544661234",
+                "amount": 100.00,
+                "type": "WITHDRAWAL",
+                "description": "Payment to supermarket",
+                "currency": "EUR"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "iban": "DE68500105174869319237",
+        "currency": "EUR",
+        "active": true,
+        "accountBalance": {
+            "amount": 780.50,
+            "currency": "EUR"
+        }
+    }
+]
